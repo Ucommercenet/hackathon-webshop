@@ -13,11 +13,24 @@ namespace Ucommerce.Masterclass.Umbraco.Controllers
 {
     public class ProductController : RenderMvcController
     {
+        public ICatalogContext CatalogContext => ObjectFactory.Instance.Resolve<ICatalogContext>();
+        public ICatalogLibrary CatalogLibrary => ObjectFactory.Instance.Resolve<ICatalogLibrary>();
+        
         [System.Web.Mvc.HttpGet]
         public ActionResult Index()
         {
-            var productModel = new ProductViewModel();
+            var currentProduct = CatalogContext.CurrentProduct;
 
+            var productModel = new ProductViewModel()
+            {
+                Sku = currentProduct.Sku,
+                Name = currentProduct.DisplayName,
+                PrimaryImageUrl = currentProduct.PrimaryImageUrl,
+                LongDescription = currentProduct.LongDescription,
+                Prices = CatalogLibrary.CalculatePrices(new List<Guid>() { currentProduct.Guid }).Items,
+                Variants = MapVariants(CatalogLibrary.GetVariants(currentProduct))
+            };
+            
             return View(productModel);
         }
 
@@ -29,7 +42,11 @@ namespace Ucommerce.Masterclass.Umbraco.Controllers
         
         private IList<ProductViewModel> MapVariants(ResultSet<Product> variants)
         {
-           return new List<ProductViewModel>();
+            return variants.Select(v => new ProductViewModel()
+            {
+                Name = v.DisplayName,
+                VariantSku = v.VariantSku
+            }).ToList();
         }
     }
 }

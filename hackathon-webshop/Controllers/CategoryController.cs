@@ -17,6 +17,7 @@ using Umbraco.Web.Mvc;
 
 namespace Ucommerce.Masterclass.Umbraco.Controllers
 {
+    #region facetHelper
     public static class FacetedQueryStringExtensions
     {
         public static IList<Facet> ToFacets(this NameValueCollection target)
@@ -47,9 +48,14 @@ namespace Ucommerce.Masterclass.Umbraco.Controllers
             return facetsForQuerying;
         }
     }
+    #endregion
 
     public class CategoryController : RenderMvcController
     {
+        public ICatalogContext CatalogContext => ObjectFactory.Instance.Resolve<ICatalogContext>();
+        public ICatalogLibrary CatalogLibrary => ObjectFactory.Instance.Resolve<ICatalogLibrary>();
+        public IUrlService UrlService => ObjectFactory.Instance.Resolve<IUrlService>();
+
         public CategoryController()
         {
             
@@ -66,19 +72,60 @@ namespace Ucommerce.Masterclass.Umbraco.Controllers
         {
             var categoryModel = new CategoryViewModel();
 
+            var currentCategory = CatalogContext.CurrentCategory;
+
+            var facetDictionary = System.Web.HttpContext.Current.Request.QueryString.ToFacets().ToFacetDictionary();
+
+            var facetResultSet = CatalogLibrary.GetProducts(currentCategory.Guid, facetDictionary, 0, 300);
+
+            categoryModel.Products = MapProducts(facetResultSet.Results);
+            categoryModel.Facets = MapFacets(facetResultSet.Facets);
+
             return View("/views/category/index.cshtml", categoryModel);
         }
 
         private IList<FacetsViewModel> MapFacets(IList<Facet> facets)
         {
             var facetsToReturn = new List<FacetsViewModel>();
+
+            foreach (var facet in facets)
+            {
+                facetsToReturn.Add(new FacetsViewModel()
+                {
+                    Key = facet.Name,
+                    DisplayName = facet.DisplayName,
+                    FacetValues = facet.FacetValues.Select(x => new FacetValueViewModel()
+                    {
+                        Count = x.Count,
+                        Key = x.Value
+                    }).ToList()
+                        
+                });
+            }
             
             return facetsToReturn;
         }
 
         private IList<ProductViewModel> MapProducts(IList<Product> products)
         {
-            return new List<ProductViewModel>();
+            var prices = CatalogLibrary.CalculatePrices(products.Select(x => x.Guid).ToList());
+
+            var productListModel = new List<ProductViewModel>();
+
+            foreach (var product in products)
+            {
+                productListModel.Add(new ProductViewModel()
+                {
+                    LongDescription = product.LongDescription,
+                    Name = product.DisplayName,
+                    Prices = prices.Items.Where(x => x.ProductGuid == product.Guid && x.PriceGroupGuid == CatalogContext.CurrentPriceGroup.Guid).ToList(),
+                    Url = UrlService.GetUrl(CatalogContext.CurrentCatalog, new List<Category> () { CatalogContext.CurrentCategory }, product),
+                    Sku = product.Sku,
+                    Sellable = product.ProductType == ProductType.Product || product.ProductType == ProductType.ProductFamily,
+                });
+            }
+            
+            return productListModel;
         }
     }
 }
