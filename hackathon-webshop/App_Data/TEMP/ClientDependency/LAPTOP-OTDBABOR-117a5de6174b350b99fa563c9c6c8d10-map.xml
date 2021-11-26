@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<map>
+  <item key="L3VtYnJhY28vYXNzZXRzL2Nzcy91bWJyYWNvLmNzczsvdW1icmFjby9saWIvYm9vdHN0cmFwLXNvY2lhbC9ib290c3RyYXAtc29jaWFsLmNzczsvdW1icmFjby9saWIvZm9udC1hd2Vzb21lL2Nzcy9mb250LWF3ZXNvbWUubWluLmNzczs" file="C:\projects\hackathon-webshop\hackathon-webshop\App_Data\TEMP\ClientDependency\21145_a515d8cce4cd4a9e9d237ad20e8461e3.cdC" compression="gzip" version="21145">
+    <files>
+      <file name="/umbraco/assets/css/umbraco.css" />
+      <file name="/umbraco/lib/bootstrap-social/bootstrap-social.css" />
+      <file name="/umbraco/lib/font-awesome/css/font-awesome.min.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vbGliL2pxdWVyeS9qcXVlcnkubWluLmpzOy91bWJyYWNvL2xpYi9qcXVlcnktdWkvanF1ZXJ5LXVpLm1pbi5qczsvdW1icmFjby9saWIvanF1ZXJ5LXVpLXRvdWNoLXB1bmNoL2pxdWVyeS51aS50b3VjaC1wdW5jaC5taW4uanM7L3VtYnJhY28vbGliL2FuZ3VsYXIvYW5ndWxhci5qczsvdW1icmFjby9saWIvdW5kZXJzY29yZS91bmRlcnNjb3JlLW1pbi5qczsvdW1icmFjby9saWIvbW9tZW50L21vbWVudC5taW4uanM7L3VtYnJhY28vbGliL2ZsYXRwaWNrci9mbGF0cGlja3IuanM7L3VtYnJhY28vbGliL2FuaW1lanMvYW5pbWUubWluLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLXJvdXRlL2FuZ3VsYXItcm91dGUuanM7L3VtYnJhY28vbGliL2FuZ3VsYXItY29va2llcy9hbmd1bGFyLWNvb2tpZXMuanM7L3VtYnJhY28vbGliL2FuZ3VsYXItYXJpYS9hbmd1bGFyLWFyaWEubWluLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLXRvdWNoL2FuZ3VsYXItdG91Y2guanM7L3VtYnJhY28vbGliL2FuZ3VsYXItc2FuaXRpemUvYW5ndWxhci1zYW5pdGl6ZS5qczsvdW1icmFjby9saWIvYW5ndWxhci1hbmltYXRlL2FuZ3VsYXItYW5pbWF0ZS5qczsvdW1icmFjby9saWIvYW5ndWxhci1tZXNzYWdlcy9hbmd1bGFyLW1lc3NhZ2VzLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLXVpLXNvcnRhYmxlL3NvcnRhYmxlLmpzOy91bWJyYWNvL2xpYi9hbmd1bGFyLWR5bmFtaWMtbG9jYWxlL3RtaER5bmFtaWNMb2NhbGUubWluLmpzOy91bWJyYWNvL2xpYi9uZy1maWxlLXVwbG9hZC9uZy1maWxlLXVwbG9hZC5taW4uanM7L3VtYnJhY28vbGliL2FuZ3VsYXItbG9jYWwtc3RvcmFnZS9hbmd1bGFyLWxvY2FsLXN0b3JhZ2UubWluLmpzOy91bWJyYWNvL2xpYi9jaGFydC5qcy9jaGFydC5taW4uanM7L3VtYnJhY28vbGliL2FuZ3VsYXItY2hhcnQuanMvYW5ndWxhci1jaGFydC5taW4uanM7L3VtYnJhY28vbGliL3dpY2ctaW5lcnQvZGlzdC9pbmVydC5taW4uanM7L3VtYnJhY28vbGliL3VtYnJhY28vRXh0ZW5zaW9ucy5qczsvdW1icmFjby9saWIvdW1icmFjby9OYW1lc3BhY2VNYW5hZ2VyLmpzOy91bWJyYWNvL2xpYi91bWJyYWNvL0xlZ2FjeVNwZWVjaEJ1YmJsZS5qczsvdW1icmFjby9qcy9hcHAuanM7L3VtYnJhY28vanMvdW1icmFjby5yZXNvdXJjZXMuanM7L3VtYnJhY28vanMvdW1icmFjby5kaXJlY3RpdmVzLmpzOy91bWJyYWNvL2pzL3VtYnJhY28uZmlsdGVycy5qczsvdW1icmFjby9qcy91bWJyYWNvLnNlcnZpY2VzLmpzOy91bWJyYWNvL2pzL3VtYnJhY28uaW50ZXJjZXB0b3JzLmpzOy91bWJyYWNvL2pzL3VtYnJhY28uY29udHJvbGxlcnMuanM7L3VtYnJhY28vanMvcm91dGVzLmpzOy91bWJyYWNvL2pzL2luaXQuanM7L0FwcF9QbHVnaW5zL3VDb21tZXJjZVBpY2tlci9VY29tbWVyY2VDbGllbnRNZ3IuanM7L3VtYnJhY28vdWNvbW1lcmNlL3NjcmlwdHMvYXBwL1Jlc291cmNlcy9jb250ZW50LnJlc291cmNlLmpzOw" file="C:\projects\hackathon-webshop\hackathon-webshop\App_Data\TEMP\ClientDependency\21145_f753157896e54a3099ea64585680d8e8.cdJ" compression="gzip" version="21145">
+    <files>
+      <file name="/umbraco/lib/jquery/jquery.min.js" />
+      <file name="/umbraco/lib/jquery-ui/jquery-ui.min.js" />
+      <file name="/umbraco/lib/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js" />
+      <file name="/umbraco/lib/angular/angular.js" />
+      <file name="/umbraco/lib/underscore/underscore-min.js" />
+      <file name="/umbraco/lib/moment/moment.min.js" />
+      <file name="/umbraco/lib/flatpickr/flatpickr.js" />
+      <file name="/umbraco/lib/animejs/anime.min.js" />
+      <file name="/umbraco/lib/angular-route/angular-route.js" />
+      <file name="/umbraco/lib/angular-cookies/angular-cookies.js" />
+      <file name="/umbraco/lib/angular-aria/angular-aria.min.js" />
+      <file name="/umbraco/lib/angular-touch/angular-touch.js" />
+      <file name="/umbraco/lib/angular-sanitize/angular-sanitize.js" />
+      <file name="/umbraco/lib/angular-animate/angular-animate.js" />
+      <file name="/umbraco/lib/angular-messages/angular-messages.js" />
+      <file name="/umbraco/lib/angular-ui-sortable/sortable.js" />
+      <file name="/umbraco/lib/angular-dynamic-locale/tmhDynamicLocale.min.js" />
+      <file name="/umbraco/lib/ng-file-upload/ng-file-upload.min.js" />
+      <file name="/umbraco/lib/angular-local-storage/angular-local-storage.min.js" />
+      <file name="/umbraco/lib/chart.js/chart.min.js" />
+      <file name="/umbraco/lib/angular-chart.js/angular-chart.min.js" />
+      <file name="/umbraco/lib/wicg-inert/dist/inert.min.js" />
+      <file name="/umbraco/lib/umbraco/Extensions.js" />
+      <file name="/umbraco/lib/umbraco/NamespaceManager.js" />
+      <file name="/umbraco/lib/umbraco/LegacySpeechBubble.js" />
+      <file name="/umbraco/js/app.js" />
+      <file name="/umbraco/js/umbraco.resources.js" />
+      <file name="/umbraco/js/umbraco.directives.js" />
+      <file name="/umbraco/js/umbraco.filters.js" />
+      <file name="/umbraco/js/umbraco.services.js" />
+      <file name="/umbraco/js/umbraco.interceptors.js" />
+      <file name="/umbraco/js/umbraco.controllers.js" />
+      <file name="/umbraco/js/routes.js" />
+      <file name="/umbraco/js/init.js" />
+      <file name="/App_Plugins/uCommercePicker/UcommerceClientMgr.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Resources/content.resource.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vdWNvbW1lcmNlL3NjcmlwdHMvYXBwL1NlcnZpY2VzL2NvbnRlbnQtcGlja2VyLnNlcnZpY2UuanM7L3VtYnJhY28vdWNvbW1lcmNlL3NjcmlwdHMvYXBwL1NlcnZpY2VzL3RyZWVOb2RlSWNvblNlcnZpY2Uuc2VydmljZS5qczsvQXBwX1BsdWdpbnMvdUNvbW1lcmNlUGlja2VyL3RyZWUuY29udHJvbGxlci5qczsvdW1icmFjby91Y29tbWVyY2Uvc2NyaXB0cy9hcHAvQ29udHJvbGxlcnMvcHJlc2VsZWN0ZWQtdmFsdWVzLWxpc3QuY29udHJvbGxlci5qczsvdW1icmFjby91Y29tbWVyY2Uvc2NyaXB0cy9hcHAvQ29udHJvbGxlcnMvY29udGVudC10cmVlLmNvbnRyb2xsZXIuanM7L3VtYnJhY28vdWNvbW1lcmNlL3NjcmlwdHMvYXBwL0NvbnRyb2xsZXJzL2NhdGFsb2ctc2VhcmNoLmNvbnRyb2xsZXIuanM7L3VtYnJhY28vdWNvbW1lcmNlL3NjcmlwdHMvYXBwL0NvbnRyb2xsZXJzL2NvbnRlbnQtcGlja2VyLmNvbnRyb2xsZXIuanM7L3VtYnJhY28vdWNvbW1lcmNlL3NjcmlwdHMvYXBwL0NvbnRyb2xsZXJzL211bHRpLXBpY2tlci5jb250cm9sbGVyLmpzOy91bWJyYWNvL3Vjb21tZXJjZS9zY3JpcHRzL2FwcC9EaXJlY3RpdmVzL3Vjb21tZXJjZS1jYXRhbG9nLXNlYXJjaC91Y29tbWVyY2UuY2F0YWxvZy5zZWFyY2guZGlyZWN0aXZlLmpzOy91bWJyYWNvL3Vjb21tZXJjZS9zY3JpcHRzL2FwcC9EaXJlY3RpdmVzL3Vjb21tZXJjZS1wcmVzZWxlY3RlZC12YWx1ZXMtbGlzdC9wcmVzZWxlY3RlZFZhbHVlc0xpc3QuanM7L3VtYnJhY28vdWNvbW1lcmNlL3NjcmlwdHMvYXBwL0RpcmVjdGl2ZXMvdWNvbW1lcmNlLXRyZWUvdWNvbW1lcmNlLnRyZWUuZGlyZWN0aXZlLmpzOy91bWJyYWNvL3Vjb21tZXJjZS9zY3JpcHRzL2FwcC9EaXJlY3RpdmVzL3Vjb21tZXJjZS1jb250ZW50LXRyZWUvdWNvbW1lcmNlLmNvbnRlbnQtdHJlZS5kaXJlY3RpdmUuanM7L3VtYnJhY28vdWNvbW1lcmNlL3NjcmlwdHMvYXBwL0RpcmVjdGl2ZXMvdWNvbW1lcmNlLW11bHRpLXBpY2tlci91Y29tbWVyY2UubXVsdGktcGlja2VyLmRpcmVjdGl2ZS5qczsvQXBwX1BsdWdpbnMvdUNvbW1lcmNlUGlja2VyL2ZhY3RvcnkuanM7L0FwcF9QbHVnaW5zL3VDb21tZXJjZVRyZWVUaXRsZS9VQ29tbWVyY2VUcmVlVGl0bGUuanM7" file="C:\projects\hackathon-webshop\hackathon-webshop\App_Data\TEMP\ClientDependency\21145_89e110b6f3244230898add2bfd130968.cdJ" compression="gzip" version="21145">
+    <files>
+      <file name="/umbraco/ucommerce/scripts/app/Services/content-picker.service.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Services/treeNodeIconService.service.js" />
+      <file name="/App_Plugins/uCommercePicker/tree.controller.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Controllers/preselected-values-list.controller.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Controllers/content-tree.controller.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Controllers/catalog-search.controller.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Controllers/content-picker.controller.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Controllers/multi-picker.controller.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Directives/ucommerce-catalog-search/ucommerce.catalog.search.directive.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Directives/ucommerce-preselected-values-list/preselectedValuesList.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Directives/ucommerce-tree/ucommerce.tree.directive.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Directives/ucommerce-content-tree/ucommerce.content-tree.directive.js" />
+      <file name="/umbraco/ucommerce/scripts/app/Directives/ucommerce-multi-picker/ucommerce.multi-picker.directive.js" />
+      <file name="/App_Plugins/uCommercePicker/factory.js" />
+      <file name="/App_Plugins/uCommerceTreeTitle/UCommerceTreeTitle.js" />
+    </files>
+  </item>
+  <item key="L0FwcF9QbHVnaW5zL3VDb21tZXJjZUljb25zL3N0eWxlLmNzczs" file="C:\projects\hackathon-webshop\hackathon-webshop\App_Data\TEMP\ClientDependency\21145_7701d46b6eb0497aa125a1567ad58a55.cdC" compression="gzip" version="21145">
+    <files>
+      <file name="/App_Plugins/uCommerceIcons/style.css" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vbGliL3RpbnltY2UvdGlueW1jZS5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9wYXN0ZS9wbHVnaW4ubWluLmpzOy91bWJyYWNvL2xpYi90aW55bWNlL3BsdWdpbnMvYW5jaG9yL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9jaGFybWFwL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy90YWJsZS9wbHVnaW4ubWluLmpzOy91bWJyYWNvL2xpYi90aW55bWNlL3BsdWdpbnMvbGlzdHMvcGx1Z2luLm1pbi5qczsvdW1icmFjby9saWIvdGlueW1jZS9wbHVnaW5zL2Fkdmxpc3QvcGx1Z2luLm1pbi5qczsvdW1icmFjby9saWIvdGlueW1jZS9wbHVnaW5zL2hyL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9hdXRvbGluay9wbHVnaW4ubWluLmpzOy91bWJyYWNvL2xpYi90aW55bWNlL3BsdWdpbnMvZGlyZWN0aW9uYWxpdHkvcGx1Z2luLm1pbi5qczsvdW1icmFjby9saWIvdGlueW1jZS9wbHVnaW5zL3RhYmZvY3VzL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9zZWFyY2hyZXBsYWNlL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9mdWxsc2NyZWVuL3BsdWdpbi5taW4uanM7L3VtYnJhY28vbGliL3RpbnltY2UvcGx1Z2lucy9ub25lZGl0YWJsZS9wbHVnaW4ubWluLmpzOw" file="C:\projects\hackathon-webshop\hackathon-webshop\App_Data\TEMP\ClientDependency\21145_194ebccdbee946b9b1bd709f099ab48e.cdJ" compression="gzip" version="21145">
+    <files>
+      <file name="/umbraco/lib/tinymce/tinymce.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/paste/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/anchor/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/charmap/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/table/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/lists/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/advlist/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/hr/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/autolink/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/directionality/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/tabfocus/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/searchreplace/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/fullscreen/plugin.min.js" />
+      <file name="/umbraco/lib/tinymce/plugins/noneditable/plugin.min.js" />
+    </files>
+  </item>
+  <item key="L3VtYnJhY28vdWNvbW1lcmNlL2Nzcy9VbWJyYWNvOC9VY29tbWVyY2UuY3NzOy91bWJyYWNvL3Vjb21tZXJjZS9jc3MvVW1icmFjbzgvYm9vdHN0cmFwLm1pbi5jc3M7L3VtYnJhY28vdWNvbW1lcmNlL2Nzcy9mb250cy9jc3MvZm9udC1hd2Vzb21lLm1pbi5jc3M7L3VtYnJhY28vdWNvbW1lcmNlLy91bWJyYWNvL2Fzc2V0cy9jc3MvdW1icmFjby5jc3M7L3VtYnJhY28vdWNvbW1lcmNlL2Nzcy9mb250cy9jc3MvVWNvbW1lcmNlLWljb24tZm9udC5jc3M7L3VtYnJhY28vdWNvbW1lcmNlL2Nzcy9VbWJyYWNvOC9oZWx2ZXRpY29ucy9oZWx2ZXRpY29ucy5jc3M7L3VtYnJhY28vdWNvbW1lcmNlL2Nzcy9VbWJyYWNvOC9zaGVsbC5jc3M7" file="C:\projects\hackathon-webshop\hackathon-webshop\App_Data\TEMP\ClientDependency\21145_1910e08ed40c445b962a692473db3e5f.cdC" compression="gzip" version="21145">
+    <files>
+      <file name="/umbraco/ucommerce/css/Umbraco8/Ucommerce.css" />
+      <file name="/umbraco/ucommerce/css/Umbraco8/bootstrap.min.css" />
+      <file name="/umbraco/ucommerce/css/fonts/css/font-awesome.min.css" />
+      <file name="/umbraco/ucommerce/css/fonts/css/Ucommerce-icon-font.css" />
+      <file name="/umbraco/ucommerce/css/Umbraco8/helveticons/helveticons.css" />
+      <file name="/umbraco/ucommerce/css/Umbraco8/shell.css" />
+    </files>
+  </item>
+</map>
